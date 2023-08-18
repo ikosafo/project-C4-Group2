@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forns (Part 2)</title>
+</head>
+
+<body>
+    <h2>HTML Forms (Part 2)</h2>
+
+    <form>
+        <p>Fields marked <small style="color:red">*</small> are required <br /></p>
+        <label for="code">Code: <small style="color:red">*</small></label><br>
+        <input type="text" required id="code" name="code" placeholder="121-23-123" autofocus
+            pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" autocomplete="off"><br>
+        <label for="pin">PIN:</label><br>
+        <input type="number" id="pin" name="pin" min="3" step="4" size="40" maxlength="4"
+            placeholder="Please enter your PIN">
+        <input type="submit">
+    </form>
+
+</body>
+
+</html>

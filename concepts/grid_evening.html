@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,200&family=Roboto:ital,wght@0,400;0,900;1,100&display=swap"
+        rel="stylesheet">
+    <title>Grids</title>
+    <style>
+        #content {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-rows: minmax(100px, auto);
+            gap: 10px;
+            max-width: 960px;
+            margin: 0 auto;
+        }
+
+        #content>* {
+            background: #3bbced;
+            padding: 30px
+        }
+
+        /*  header {
+            grid-column: 1 / 13;
+        }
+
+        main {
+            grid-column: 4 / 13;
+            grid-row: 2 / 4;
+        }
+
+        aside {
+            grid-column: 1 / 4;
+        }
+
+        nav {
+            grid-column: 1 / 4;
+        }
+
+        section {
+            grid-column: 1 / 13;
+            grid-row: 4 / 6;
+        }
+ */
+        /* aside {
+            grid-column: 1 / 4;
+        }
+
+        nav {
+            grid-column: 1 / 4;
+        }
+
+        section {
+            grid-column: 1 / 13;
+            grid-row: 4 / 6;
+        } */
+
+        /*  footer {
+            grid-column: 1 / 13;
+        } */
+    </style>
+</head>
+
+<body>
+
+    <!-- <div id="content">
+        <header>Header section</header>
+        <main>Main</main>
+        <section>Section</section>
+        <aside>Aside</aside>
+        <nav>Nav</nav>
+        <footer>Footer</footer>
+    </div> -->
+
+    <div id="content">
+        <div>1</div>
+        <div>What is Lorem Ipsum?
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+            Aldus PageMaker including versions of Lorem Ipsum.</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+    </div>
+</body>
+
+</html>
